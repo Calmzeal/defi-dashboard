@@ -1,0 +1,21 @@
+# Add labels based on modified files
+test:
+  - src/**/*.test.tsx
+  - src/**/*.test.ts
+  - jest.config.js
+  - jest.setup.js
+
+frontend:
+  - src/**/*
+  - public/**/*
+
+dependencies:
+  - package.json
+  - pnpm-lock.yaml
+
+documentation:
+  - "**/*.md"
+  - docs/**/*
+
+github-actions:
+  - .github/**/*
